@@ -4,7 +4,7 @@ from aichatbot import get_gemini_response
 import google.generativeai as genai
 
 # Configure the API key for the Gemini AI model
-genai.configure(api_key="AIzaSyCMI2Jvlogkvej_KTVbqntq6tUCPZn_nu0")
+genai.configure()
 
 class MainWindow(QtWidgets.QMainWindow, Ui_mainpage):
     def __init__(self, *args, **kwargs):
