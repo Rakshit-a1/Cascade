@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QLineEdi
 import google.generativeai as genai
 
 # Configure the API key for the generative AI model
-genai.configure(api_key=("AIzaSyBGNy7MMFxMmwgmLtU9wVp-TdB9jhyCNwY"))
+genai.configure(api_key=())
 
 # Initialize the generative model
 model = genai.GenerativeModel('gemini-pro')
